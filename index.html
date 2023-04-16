@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>StoneFruit</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleStoneFruitSL.css">
+</head>
+
+<body>
+<!-- Barra navegadora fuera del container para que ocupe todo el ancho de la pantalla-->
+    <nav class="marginz navbar navbar-expand-md navbar-dark bg-dark "> <!-- boton que aparece solo a partir del tamaño mediano -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+        aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Brand -->
+        <img src="img/logo2.png">
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="nav-content">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">¿Quienes somos?</a>
+                </li>
+                <div>
+                    <li class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Variedades
+                        </a>
+                        <div class="dropdown-menu dark" aria-labelledby="menu-categorias">
+                            <a href="html/Melocoton.html" class="dropdown-item dark">Melocoton</a>
+                            <a href="html/Nectarina.html" class="dropdown-item dark">Nectarina</a>
+                            <a href="html/Ciruela.html" class="dropdown-item dark">Ciruela</a>
+                        </div>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/Contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/IniciarSesion.php">Iniciar Sesion</a>
+                </li>
+            </ul>
+    </nav>
+    <div class="container">
+        <!--En el dib container añadimos el contenido estrcuturado con boostrap-->
+        <div class="row marginz">
+            <!--Primera fila con las distintas imagenes para el carousel-->
+            <div class="col-12 ">
+                <div class="carousel slide" id="secondary-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#secondary-carousel" data-slid-to="0" class="active"></li>
+                        <li data-target="#secondary-carousel" data-slid-to="1"></li>
+                        <li data-target="#secondary-carousel" data-slid-to="2"></li>
+                    </ol>
+        
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption d-block">
+                                <h4 style="font-size: 80px; font-style: oblique; color:rgb(248, 248, 247); font-weight: bold;">
+                                    Nuestra Fruta</h4>
+                            </div>
+                            <img src="img/nuestraFruta.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-block">
+                                <h4 style="font-size: 80px; font-style: oblique; color:rgb(248, 248, 247); font-weight: bold;">
+                                    Nuestra Tierra</h4>
+                            </div>
+                            <img src="img/nuestraTierra.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption d-block">
+                                <h4 style="font-size: 80px; font-style: oblique; color:rgb(248, 248, 247); font-weight: bold;">
+                                    Nuestra Gente</h4>
+                            </div>
+                            <img src="img/nuestraGente.jpg" alt="">
+                        </div>
+                    </div>
+        
+                    <a href="#secondary-carousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+        
+                    <a href="#secondary-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Siguiente fila divida en dos columnas de 6 -->
+        <div class="marginz row">
+            <div class="col-md-6 col-12">
+            <!-- Columna 1 - con 3 cards-->
+                <div id="accordion">
+                    <!-- CARD #1 -->
+                    <div class="card">
+                        <div class="card-header" id="heading1">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                                    aria-controls="collapse1"
+                                    style="font-size: 50px; font-style: oblique; color: #69A50B; font-weight: bold;">
+                                    Nuestra Fruta
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse1" class="collapse show" arial-labelledby="heading1" data-parent="#accordion">
+                            <div class="card-body">
+                                Nuestra fruta es el resultado de años de investigación tras los cuales hemos conseguido adaptar el
+                                mejor material vegetal del mundo al entorno extremeño. <strong>Mejorar el sabor, el color, la
+                                    textura, el aroma y la vida útil de cada una de nuestras variedades</strong> es una labor
+                                constante en el objetivo de hacer realmente especial el momento de degustar la fruta.
+            
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- CARD #2 -->
+                    <div class="card">
+                        <div class="card-header" id="heading2">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true"
+                                    aria-controls="collapse2"
+                                    style="font-size: 50px; font-style: oblique; color: #69A50B; font-weight: bold;">
+                                    Nuestra Tierra
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2" class="collapse" arial-labelledby="heading2" data-parent="#accordion">
+                            <div class="card-body">
+                                <strong>Extremadura</strong> dispone de suelo para el cultivo, agua de riego en abundancia y un
+                                <strong>clima especialmente adecuado para la producción de fruta de hueso.</strong> Después de mucho
+                                trabajo, hemos cumplido con el sueño de convertir nuestra región en una de las más productivas del
+                                mundo, siguiendo patrones de sostenibilidad. Cuidar la tierra es nuestro mejor seguro de vida.
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- CARD #3 -->
+                    <div class="card">
+                        <div class="card-header" id="heading3">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true"
+                                    aria-controls="collapse3"
+                                    style="font-size: 50px; font-style: oblique; color: #69A50B; font-weight: bold;">
+                                    Nuestra Gente
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse3" class="collapse" arial-labelledby="heading3" data-parent="#accordion">
+                            <div class="card-body">
+                                Sabemos el valor que aporta a la empresa cada persona y por ello hemos apostado desde siempre por un
+                                <strong>equipo humano de trabajadores, estable y bien cualificado.</strong> Encargados, personal de
+                                envasado, técnicos, comerciales, administrativos, equipos directivos… Todos formamos un gran equipo
+                                plenamente comprometido con nuestra empresa y con la atención y el cuidado de nuestros clientes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- Columna 2 - con 1 cards-->
+            <div class="col-md-6 col-12 lign-self-center">
+                <!-- texto de inovacion 360 -->
+                <!-- Clases que podemos utilizar
+                    .card 					Establecemos que trabajaremos con una tarjeta (card)
+                        .card-body 		Establecemos cual sera el contenedor del contenido
+                            .card-title 	Establecemos el un texto como titulo de la card
+                            .card-subtitle 	Establecemos un subtitulo para la card
+                            .card-text 		Establecemos el texto de la card.
+                            .card-link  	Establecemos un enlace como boton en la card
+                        .card-img-top 		Establecemos una imagen para la card en la parte superior
+                        .card-img-bottom 	Establecemos una imagen para la card en la parte inferior
+                    -->
+            
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 50px; font-style: oblique; color: #69A50B; font-weight: bold;">
+                            Innovación 360º</h3>
+                        <p class="card-subtitle text-muted mb-2 " style="font-size: 30px; font-style: oblique;font-weight: bold;">
+                            Producción natural</p>
+                        <p class="card-text">Innovar en procesos de cultivo más naturales hacen más fértiles nuestras tierras.
+                            <strong>Un suelo fértil lleno de nutrientes que se incorporan a la fruta</strong> y la convierten en una
+                            fuente de vitaminas y salud.</p>
+                        <p class="card-subtitle text-muted mb-2" style="font-size: 30px; font-style: oblique;font-weight: bold;">
+                            Producir, envasar, distribuir</p>
+                        <p class="card-text"><strong>La producción integrada rentabiliza la cadena de valor,</strong> gracias a lo
+                            cual ofrecemos un mejor servicio a nuestros clientes, unas condiciones de trabajo dignas y un cuidado
+                            adecuado de nuestros frutos para mantener siempre su mejor sabor.</p>
+                        <img src="img/img360.jpg" class="card-img-top img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Pie de pagina fuera del container-->
+    <div class="container-fluid p-3 alert-success">
+        <div class="row">
+            <div class="col-md-4 col-12 align-self-center">
+                <img src="img/logo.png">
+            </div>
+                <div class="col-md-4 col-12 align-self-center">
+                    <center><strong>Polígono El Prado / Calle Carlos SN - Mérida Extremadura </strong></center>
+                </div>
+                <div class="col-md-4 col-12 align-self-center">
+                    <center> <img src="img/soporte.png">
+                        admin@stonefruit.es</center>
+                </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

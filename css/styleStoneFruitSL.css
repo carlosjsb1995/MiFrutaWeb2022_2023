@@ -1,0 +1,89 @@
+﻿.marginz{
+		
+		margin-bottom: 30px;
+    }
+
+.caja {
+	border: 1px solid #EC4811;
+	display: inline-block;
+	margin: 20px;
+	height: 600px;
+}   
+
+.height600{
+    height: 60px;
+}
+
+.dark{
+				background-color: 	#292b2c;
+				color : rgb(131, 133, 133);
+			};
+
+
+.myalert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    /* margin-bottom: 1rem; */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+body{
+   background: #f3f3f3;
+}
+
+/*.alert{
+    background-color: black;
+    color: rgb(105, 165, 11);
+}
+/*.dropdown-toggle{
+    background-color: rgb(236, 72, 17);
+    color: white;
+}*/
+/*a{
+    font-family: "candara";
+    font-size: 15px;
+    text-decoration: none;
+    color: coral;
+}
+a:hover{
+    font-family: "candara";
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.card-header{
+    background-color: rgb(236, 72, 17);
+    color: white;
+}
+form{ 
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-color: coral;
+    border-radius: 10px;
+}
+.btn{
+    background-color: rgb(236, 72, 17);
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-color: coral;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: rgb(105, 165, 11);
+    color: white;
+}*/
+

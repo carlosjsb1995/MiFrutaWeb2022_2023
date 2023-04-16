@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>StoneFruit</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body style="background: #f3f3f3;">
+	<!-- .navbar-expand-lg	Sirve para indicar en que punto aparecera el toggler -->
+	<!-- .navbar-light 		Indicamos que usaremos un fondo claro -->
+	<!-- .navbar-dark 		Indicamos que usaremos un fondo oscuro -->
+	<!-- .bg-light 			Establecemos un fondo light para el navbar -->
+	<!-- Tambien podemos darle nuestro propio color de fondo con CSS -->
+
+	<!-- .fixed-top 		Nos permite fijar el menu en la parte superior -->
+	<!-- .fixed-bottom 		Nos permite fijar el menu en la parte inferior -->
+	
+	
+<!-- EL NAV FUERA DEL CONTAINER PARA QUE AVARQUE EL 100%; -->
+<style>
+	.marginz{
+		
+		margin-bottom: 30px;
+	}
+</style>
+
+<nav class=" marginz navbar navbar-expand-md navbar-dark bg-dark ">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<!-- Brand -->
+		<img src="../img/logo2.png">
+		<style>
+			.dark{
+				background-color: 	#292b2c;
+				color : rgb(131, 133, 133);
+			};
+		</style>
+		<!-- Links -->
+		<div class="collapse navbar-collapse justify-content-end" id="nav-content">   
+		<ul class="navbar-nav">
+		<li class="nav-item">
+		<a class="nav-link" href="../inicio.html">¿Quienes somos?</a>
+		</li>
+		<div>
+		<li class="nav-item dropdown ">
+						<a href="#" class="nav-link dropdown-toggle" id="menu-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Variedades
+						</a>
+						<div class="dropdown-menu dark" aria-labelledby="menu-categorias">
+							<a href="Melocoton.html" class="dropdown-item dark">Melocoton</a>
+							<a href="Nectarina.html" class="dropdown-item dark">Nectarina</a>
+							<a href="Ciruela.html" class="dropdown-item dark">Ciruela</a>
+						</div>
+		</li>
+		</div>
+		<li class="nav-item">
+		<a class="nav-link" href="Contacto.html">Contacto</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="IniciarSesion.php">Iniciar Sesion</a>
+		</li>
+		</ul>
+</nav>
+
+<div class="container">
+	<div class=" marginz row">
+
+			<!-- texto de inovacion 360 -->
+			<!-- Clases que podemos utilizar
+		.card 					Establecemos que trabajaremos con una tarjeta (card)
+			.card-body 		Establecemos cual sera el contenedor del contenido
+				.card-title 	Establecemos el un texto como titulo de la card
+				.card-subtitle 	Establecemos un subtitulo para la card
+				.card-text 		Establecemos el texto de la card.
+				.card-link  	Establecemos un enlace como boton en la card
+			.card-img-top 		Establecemos una imagen para la card en la parte superior
+			.card-img-bottom 	Establecemos una imagen para la card en la parte inferior
+		-->
+		<div class="col">
+            <h1>Nectarina</h1>
+            <hr style="background-color: transparent; border-top: 2px solid;">
+
+            <div class="media">
+                <!--d-flex  display flex 
+                <lign-slef-start ( o align-self-center) para aponer la imagen arriba, centrarla etc dentro del contendor
+            mr-3 margen de 3-->
+                <img src="../img/bigTop.JPG" width="200" height="200" alt="" class="d-flex align-self-start mr-3">
+                <div class="media-body">
+                    <h4 class="mt-0" style ="color: #69A50B; font-weight: bold;">Big Top RD</h4>
+                    <!-- mt-0 eliminar espaciazo de arriba-->
+                
+                    <p>Nectarina Big Top RD. De vigor medio a fuerte y porte semierguido.</p>
+					<div class="row">
+						<div class="col">
+							<!-- table para separar los celdas y las filas con una linea  -->
+							<!-- .table-dark Nos permite cambiar los colores de la tabla a osucors -->
+							<!-- .table-striped Nos permite alternar colores entre cada fila -->
+							<!-- .table-bordered Nos permite agregarle bordes a la tabla -->
+							<!-- .table-hover Nos permite agregarle un hover a las filas -->
+							<!-- .table-sm Nos permite hacer la tabla mas pequeña eliminando paddings -->
+							<!-- .table-responsive-xx Nos permite adaptar nuestra tabla a dispositivos moviles -->
+							<table class="table table-sm table-hover table-bordered table-responsive-lg">
+								
+			
+								<!-- .table-active - color gris -->
+								<!-- .table-success  - color verde -->
+								<!-- .table-warning  - color naranja -->
+								<!-- .table-danger  - color rojo -->
+								<!-- .table-info - color azul -->
+								<!-- estos son colores opacos-->
+								<tr class="table-active">
+									<td><strong>FECHA MEDIA DE COSECHA</strong></td>
+									<td>5 de junio</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>ÉPOCA DE FLORACIÓN</strong></td>
+									<td>Media</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>VIGOR DEL ÁRBOL</strong></td>
+									<td>Media-Alta</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>PRODUCCIÓN</strong></td>
+									<td>Alta</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>COLOR EXTERIOR FRUTO PREDOMINANTE</strong></td>
+									<td>Rojo</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>COLOR DE LA PULPA PREDOMINANTE</strong></td>
+									<td>Amarillo</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>AZÚCARES</strong></td>
+									<td>10º-14º Brix</td>
+									
+								</tr>
+								<tr class="table-active">
+									<td><strong>CALIBRE MEDIO</strong></td>
+									<td>50-60mm</td>
+									
+								</tr>
+							</table>
+						</div>
+					</div>
+                    <hr style="background-color: transparent; border-top: 1px solid #EC4811;">
+                </div>
+            </div>
+    
+            <div class="media">
+                <div class="media-body">
+					<img src="../img/honeyGlory.JPG" width="200" height="200" alt="" class="d-flex align-self-start mr-3" style="float: right;">
+					<div class="row">
+							<div class="col">
+							<h4 class="mt-0 text-right" style ="color: #69A50B; font-weight: bold;">Honey Glory</h4>
+							<p class="text-right">Variedad de elevado potencial de calibre y producción. Muy buena calidad gustativa</p>
+
+							<div class="row">
+								<div class="col">
+									<!-- table para separar los celdas y las filas con una linea  -->
+									<!-- .table-dark Nos permite cambiar los colores de la tabla a osucors -->
+									<!-- .table-striped Nos permite alternar colores entre cada fila -->
+									<!-- .table-bordered Nos permite agregarle bordes a la tabla -->
+									<!-- .table-hover Nos permite agregarle un hover a las filas -->
+									<!-- .table-sm Nos permite hacer la tabla mas pequeña eliminando paddings -->
+									<!-- .table-responsive-xx Nos permite adaptar nuestra tabla a dispositivos moviles -->
+									<table class="table table-sm table-hover table-bordered table-responsive-lg">
+										
+					
+										<!-- .table-active - color gris -->
+										<!-- .table-success  - color verde -->
+										<!-- .table-warning  - color naranja -->
+										<!-- .table-danger  - color rojo -->
+										<!-- .table-info - color azul -->
+										<!-- estos son colores opacos-->
+										<tr class="table-active">
+											<td><strong>FECHA MEDIA DE COSECHA</strong></td>
+											<td>15 de agosto</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>ÉPOCA DE FLORACIÓN</strong></td>
+											<td>Media</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>VIGOR DEL ÁRBOL</strong></td>
+											<td>Media-Alta</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>PRODUCCIÓN</strong></td>
+											<td>Alta</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>COLOR EXTERIOR FRUTO PREDOMINANTE</strong></td>
+											<td>Rojo</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>COLOR DE LA PULPA PREDOMINANTE</strong></td>
+											<td>Rojo</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>AZÚCARES</strong></td>
+											<td>18º Brix</td>
+											
+										</tr>
+										<tr class="table-active">
+											<td><strong>CALIBRE MEDIO</strong></td>
+											<td>50-65mm</td>
+											
+										</tr>
+									</table>
+								</div>
+							</div>
+							<hr style="background-color: transparent; border-top: 1px solid #EC4811;">
+						</div>
+							</div>
+							
+							</div>
+					</div>
+			</div>
+            </div>
+         </div>
+    </div>
+        
+</div>           
+		
+<div class=" row alert alert-success" role="alert">
+	<div class="col-4">
+	<img src="../img/logo.png" >
+	</div>
+	<div class="col-4 align-self-center">
+	<center><strong>Polígono El Prado / Calle Carlos SN - Mérida Extremadura </strong></center>
+	</div>
+	<div class="col-4 align-self-center">
+	 <center> <img src="../img/soporte.png" >
+	admin@stonefruit.es</center>
+	</div>
+</div>
+
+    <script src="../js/jquery-3.5.1.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
